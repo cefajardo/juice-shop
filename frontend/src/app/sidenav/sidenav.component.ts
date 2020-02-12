@@ -16,7 +16,7 @@ import { roles } from '../roles'
 })
 export class SidenavComponent implements OnInit {
 
-  public applicationName = 'OWASP Juice Shop'
+  public applicationName = 'OWASP Juice Shop ¡¡¡TE AMO DESDE AZURE ESPOSITA!!!'
   public showGitHubLink = true
   public userEmail = ''
   public scoreBoardVisible: boolean = false
