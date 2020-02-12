@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: cefajardojuiceshop 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: cefajardojuiceshop 
+    spec:
+      containers:
+        - name: cefajardojuiceshop 
+          image: cefajardo.azurecr.io/cefajardojuiceshop
+          ports:
+          - containerPort: 3000
